@@ -1,0 +1,413 @@
+@media(max-width: 1400px) {
+    .main__content-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main__phone-cards {
+        justify-content: center !important;
+    }
+    .main__phone-card {
+        margin-right: 30px;
+    }
+    .main__laptop-cards {
+        justify-content: center !important;
+    }
+    .main__laptop-card {
+        margin-right: 30px;
+    }
+    .main__seller-cards {
+        justify-content: center !important;
+    }
+    .main__seller-card {
+        margin-right: 30px;
+    }
+    .main__buttons-cart {
+        padding: 13px 50px;
+    }
+    .main__right-title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media(max-width: 1290px) {
+    .main__xbox-img {
+        width: 100%;
+    }
+}
+@media(max-width: 1220px) {
+    .main__xbox-btn {
+        margin-top: 250px;
+    }
+}
+@media(max-width: 1200px) {
+    .main__playstation-title {
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .main__seller { 
+        margin-top: 50px;
+    }
+    .main__buttons-cart {
+        padding: 13px 30px;
+        margin-right: 6px;
+    }
+    .main__vr-title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .header__logo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 1135px) {
+    .main__xbox-btn {
+        margin-top: 225px;
+    }
+}
+@media(max-width: 1080px) {
+    .main__xbox-btn {
+        margin-top: 200px;
+    }
+}
+@media(max-width: 1005px) {
+    .main__xbox-btn {
+        margin-top: 175px;
+    }
+    .main__xbox-title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .main__xbox-decr {
+        font-size: 20px;
+    }
+}
+@media(max-width: 991px) {
+    .carousel-indicators {
+        right: 0;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .header__poster-english {
+        color: var(--white);
+        background: var(--black);
+        border: none;
+    }
+    .header__poster-russian {
+        color: var(--white);
+        background: var(--black);
+        border: none;
+    }
+    .main__playstation-info {
+        margin-top: 30px
+    }
+    .main__playstation-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer__nav-img {
+        margin-bottom: 15px;
+    }
+    .footer__nav-icons {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .header__logo {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .main__img-discount {
+        line-height: 30px;
+        border-radius: 50%;
+        padding: 20px 12px;
+    }
+    .main__tabs {
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+    .main__left-img {
+        max-width: 120px !important;
+        max-height: 150px !important;
+    }
+    .main__vr-title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .main__vr-description {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 270px;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .main__vr-link {
+        margin-top: 35px;
+    }
+}
+@media(max-width: 904px) {
+    .main__xbox-btn {
+        margin-top: 150px;
+    }
+}
+@media(max-width: 835px) {
+    .main__xbox-btn {
+        margin-top: 125px;
+    }
+    .main__xbox-title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+}
+@media(max-width: 768px) {
+    .header__slider-title {
+        line-height: 60px;
+        font-size: 40px;
+    }
+    .header__nav {
+        flex-wrap: wrap;
+    }
+    .main__img-discount {
+        font-size: 18px;
+        margin: 0;
+    }
+    .main__content-cards {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .main__playstation-info {
+        margin: 0;
+        max-width: 230px;
+        width: 100%;
+    }
+    .main__playstation-title {
+        width: 230px;
+        margin-bottom: 15px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .main__playstation-link {
+        display: block;
+        max-width: 175px;
+        width: 100%;
+        padding: 13px 30px;
+    }
+    .main__phone-cell {
+        text-align: center;
+    }
+    .main__laptop-computers {
+        text-align: center;
+    }
+    .main__seller-info {
+        text-align: center;
+    }
+    .main__content-cards {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .header__nav  {
+        justify-content: center !important;
+    }
+    .main__right-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .main__buttons-cart {
+        padding: 13px 60px;
+        margin-right: 20px;
+        line-height: 30px;
+    }
+    .main__vr-content {
+        right: -83px;
+    }
+    .main__vr-link {
+        margin-top: 10px;
+    }
+    .main__vr-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 752px) {
+    .main__xbox-btn {
+        margin-top: 100px;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 13px 30px;
+    }
+}
+@media(max-width: 672px) {
+    .main__xbox-btn {
+        margin-top: 75px;
+    }
+    .main__xbox-title {
+        font-size: 33px;
+        line-height: 35px;
+    }
+    .main__xbox-decr {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main__line-img {
+        opacity: 0;
+    }
+    .main__vr-content {
+        right: -47px;
+    }
+}
+@media(max-width: 600px) {
+    .main__vr-description {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0;
+    }
+    .main__vr-link {
+        margin-left: 20px;
+        padding: 13px 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main__vr-title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .main__vr-content {
+        right: 0;
+        max-width: 190px;
+        width: 100%;
+    }
+    .main__right-pane {
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+}
+@media(max-width: 540px) {
+    .header__search-text {
+        min-width: 250px;
+    }
+    .footer__nav-login {
+        min-width: 250px;
+    }
+    .dropdown-toggle {
+        margin-right: 20px;
+    }
+    .navbar-nav {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 525px) {
+    .main__xbox-btn {
+        margin-top: 50px;
+        padding: 13px 20px;
+    }
+}
+@media(max-width: 511px) {
+    .header__search {
+        padding: 14px 5px;
+        font-size: 15px;
+    }
+    .header__search-text {
+        min-width: 220px;
+    }
+}
+@media(max-width: 484px) {
+    .main__buttons-cart {
+        padding: 13px 40px;
+    }
+}
+@media(max-width: 464px) {
+    .main__xbox-btn {
+        margin-top: 25px;
+        padding: 13px 15px;
+    }
+    .main__xbox-title {
+        font-size: 27px;
+        line-height: 24px;
+    }
+    .main__tabs {
+      padding-left: 0;
+    }
+}
+@media(max-width: 460px) {
+    .footer__nav-login {
+        min-width: 220px;
+    }
+    .header__nav-btn {
+        padding: 11px 35px;
+    }
+    .header__slider-title {
+        line-height: 45px;
+        font-size: 35px;
+    }
+    .carousel-indicators {
+        bottom: -15px;
+    }
+    .main__playstation-info {
+        max-width: 200px;
+    }
+    .main__img-title {
+        font-size: 21px;
+    }
+    .main__img-price {
+        font-size: 20px;
+    }
+    .main__img-discount {
+        padding: 13px 13px;
+    }
+    .header__search-text {
+        min-width: 200px;
+        padding: 16px 8px;
+    }
+    .main__buttons-cart {
+        margin-right: 10px;
+        line-height: 25px;
+    }
+    .main__left-img {
+        max-width: 100px !important;
+        max-height: 130px !important;
+    }
+}
+@media(max-width: 415px) {
+    .main__playstation-info {
+        max-width: 170px;
+    }
+    .main__playstation-title {
+        width: 170px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .main__playstation-link {
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 13px 30px;
+        max-width: 158px;
+        width: 100%;
+    }
+}
+@media(max-width: 388px) {
+    .header__nav-btn {
+        font-size: 16px;
+        padding: 11px 25px;
+    }
+    .main__buttons-cart {
+        padding: 13px 35px;
+    }
+    .main__seller-info {
+        padding-top: 30px;
+    }
+}
+@media(max-width: 376px) {
+    .main__xbox-btn {
+        margin-top: 5px;
+        padding: 10px 10px;
+    }
+    .main__xbox-title {
+        font-size: 20px;
+        line-height: 18px;
+    }
+}
